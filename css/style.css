@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  margin: 15px;
+}
+header .left a{
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  border: 1px solid transparent;
+  background: tomato;
+  margin: 5px 5px;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.container{
+  padding: 0 130px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+h1{
+
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  
+}
+h1 span{
+  color: orange;
+}
+.helf-witdh{
+  width: 50%;
+}
+.helf-witdh p{
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.helf-witdh img{
+  width: 80%;
+  padding: 5%;
+  float: right;
+}
+.btn{
+  background: linear-gradient(orange,tomato);
+  padding: 0.8rem 2rem;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.left img{
+  width: 400px;
+
+}
+.flex-1{
+  flex: 1;
+}
+.about img{
+  padding: 130px;
+}
+.about p{
+  margin-bottom: 3rem;
+  line-height: 1.2;
+}
+.abt-banner{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
