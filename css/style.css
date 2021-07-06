@@ -19,6 +19,10 @@ header .left a{
   border-radius: 5px;
   text-transform: uppercase;
 }
+header .left a:hover{
+  color: white;
+  background: linear-gradient(orange,tomato);
+}
 .container{
   padding: 0 130px;
   margin: 0 auto;
@@ -85,4 +89,77 @@ background-size: cover;
 }
 .flexiable-container{
 display: flex;
+}
+.box-shadow{
+width: 50%;
+box-shadow: 10px 10px 20px gray;
+margin-left: 5%;
+margin-right: 5%;
+padding: 5px;
+border-radius: 10px;
+}
+h2{
+  font-size: 2.6rem;
+  text-align: center;
+}
+.h1-center{
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+.box-shadow p{
+ text-align: start;
+}
+.recipies p{
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+.box-shadow img{
+  width: 430px;
+  padding: 10px 5px;
+}
+.sing-btn{
+  padding: 4px 15px;
+  cursor: pointer;
+  float: right;
+  margin-left:900px;
+  border: 2px solid transparent;
+  background: white;
+}
+.sing-up-btn{
+  padding: 4px 12px;
+  cursor: pointer;
+  margin-left: 15px;
+  border: 2px solid transparent;
+  background: linear-gradient(orange,tomato);
+  color: white;
+  border-radius: 8px;
+}
+.sing-btn:hover{
+  background: linear-gradient(orange,tomato);
+  border-radius: 8px;
+  color: white;
+}
+h3{
+  color: orange;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+h3{
+  margin-top: 3rem;
+}
+.footer p{
+  text-align: center;
+  margin-bottom: 15rem;
+  margin-top: 2.5rem;
+  color: white;
+}
+.footer{
+  background: #0b0d17;
+ height: 320px;
+ border: 2px solid transparent;
+ position: center;
+ margin-top: 14rem;
 }
