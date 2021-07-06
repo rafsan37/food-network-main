@@ -4,7 +4,8 @@
   font-family: 'Poppins', sans-serif;
 }
 header{
-  margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 header .left a{
   align-items: center;
@@ -13,8 +14,7 @@ header .left a{
   color: black;
   font-weight: 600;
   border: 1px solid transparent;
-  background: tomato;
-  margin: 5px 5px;
+  margin: 5px 8px;
   padding: 0.2rem 0.4rem;
   border-radius: 5px;
   text-transform: uppercase;
@@ -24,18 +24,17 @@ header .left a:hover{
   background: linear-gradient(orange,tomato);
 }
 .container{
-  padding: 0 130px;
+  padding: 0 150px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-
 }
 h1{
 
   font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 2rem;
-  
+  color: #575757;
 }
 h1 span{
   color: orange;
@@ -162,4 +161,8 @@ h3{
  border: 2px solid transparent;
  position: center;
  margin-top: 14rem;
+}
+.about h1.heading{
+  color: #707070;
+  font-weight: 500;
 }
